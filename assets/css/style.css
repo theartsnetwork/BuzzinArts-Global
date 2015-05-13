@@ -116,7 +116,7 @@ img {
 
 
 .btn-register {
-	margin-top: 300px;
+	margin-top: 60px;
 	border-radius: 50px;
 	margin-right: 10px;
 	top: 0px;
@@ -149,7 +149,7 @@ img {
 /* HEADER SECTION */
 #h {
 	background: url(../img/header.jpg) no-repeat center top;
-	padding-top: 10px;
+	padding-top: 20px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center bottom;
@@ -169,8 +169,16 @@ img {
 
 #h h1 {
 	color: white;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 60px;
+	letter-spacing: 5px;
+	text-align: center;
+	
+}
+#h h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 30px;
 	letter-spacing: 5px;
 	text-align: center;
 	
