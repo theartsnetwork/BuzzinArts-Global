@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>SaffArt</title>
+    <title>ecomm</title>
     <style>
       @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -16,7 +16,7 @@
         max-width: 1000px;
         padding: 0 15px;
         margin: 20px auto;
-        background: #8f37ff;
+        background: #f6f5f5;
       }
 
       h1 {
@@ -24,29 +24,27 @@
         font-size: 1.7rem;
         line-height: 1.5;
         font-weight: 400;
-        color: #ffffff;
+        color: #524f4d;
         margin-bottom: 0.5rem;
       }
 
- 
-HEAD
       p {
         margin: 0;
         font-size: 1.2rem;
       }
 
       a {
-        color: #ffffff;
+        color: #269cff;
         text-decoration: none;
       }
 
       a:hover {
-        color: #000000;
+        color: #0084f2;
       }
 
       .view-container {
         margin-top: 2.6rem;
-        border: 1px #8f37ff;
+        border: 3px dashed #ecebea;
         border-radius: 5px;
         min-height: 400px;
         padding: 0 12px;
@@ -59,17 +57,19 @@ HEAD
     </style>
   </head>
   <body>
-    <h1>Art data and Analytics in Cloud</h1>
-     <div class="view-container">
-       <div id="view"></div>
-     </div>
+    <h1>Here's your Reflect view</h1>
+    <p>It's enclosed in the area below. To learn more about customizing Reflect embeds, <a href="https://reflect.io/docs/platform/embedding">visit our documentation</a>.</p>
 
-     <script type="text/javascript">
-       window.reflect = {
-         view: 'aCBSCpFBSySpmuNBEPxy3A',
-         element: document.getElementById('view'),
-       };
-     </script>
+    <div class="view-container">
+      <div id="view"></div>
+    </div>
+
+    <script type="text/javascript">
+      window.reflect = {
+        view: 'aCBSCpFBSySpmuNBEPxy3A',
+        element: document.getElementById('view'),
+      };
+    </script>
     <script type="text/javascript" src="https://cdn.reflect.io/embed.js"></script>
-   </body>
+  </body>
 </html>
